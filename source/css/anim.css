@@ -1,0 +1,45 @@
+/* 一图流图片背景 */
+#web_bg {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1; /* 将背景置于所有内容下方 */
+    transition: background-image 1s ease-in-out; /* 添加一个过渡效果 */
+  }
+  
+  .animate-bg {
+    animation: fadeOutToLeftRight 1s ease-in-out forwards;
+  }
+  
+  @keyframes fadeOutToLeftRight {
+    0% {
+      transform: scaleX(1);
+      opacity: 1;
+    }
+    100% {
+      transform: scaleX(0);
+      opacity: 0;
+    }
+  }
+
+
+/* 头像的旋转和过渡效果 */
+.avatar-img img {
+  transition: transform 0.5s ease-in-out;
+}
+
+.rotate {
+  animation: spin 0.5s linear 1;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

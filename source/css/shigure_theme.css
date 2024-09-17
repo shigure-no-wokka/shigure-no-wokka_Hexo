@@ -1,0 +1,29 @@
+:root {
+    --shun: rgb(132,109,95, 1.0);
+    --normal-light: rgba(255, 255, 255, 0.75);
+    --shigure-light: rgba(200, 225, 255, 0.878);
+    --shigure-dark: rgba(222, 175, 243, 0.878);
+    --border-light-style: 5px solid rgb(53, 155, 255, 0.8);
+    --border-dark-style: 5px solid rgba(215, 53, 255, 0.8);
+    --backdrop-filter: blur(5px) saturate(150%);
+  }
+  
+
+#aside-content .card-widget,
+div#page,
+div#archive,
+#recent-posts > .recent-post-item {
+  background: rgba(129, 152, 179, 0.302);
+  backdrop-filter: var(--backdrop-filter);
+  border-radius: 20px;
+}
+
+
+[data-theme="dark"] #aside-content .card-widget,
+[data-theme="dark"] div#page,
+[data-theme="dark"] div#archive,
+[data-theme="dark"] #recent-posts > .recent-post-item {
+  background: rgba(92, 64, 105, 0.8);
+  backdrop-filter: var(--backdrop-filter);
+  border-radius: 20px;
+}

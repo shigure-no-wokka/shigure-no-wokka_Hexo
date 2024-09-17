@@ -1,0 +1,15 @@
+/* 文章信息居中显示 */
+#page-header #post-info {
+    position: absolute;
+    bottom: 100px;
+    padding: 0 8%;
+    width: 100%;
+    text-align: center;
+  }
+  
+
+  div#post-info h1.post-title,
+  div#post-meta { 
+    /* font-size: 36; */
+    font-weight: bold;
+  }
