@@ -14,7 +14,7 @@
   "dependencies": {
     "aplayer": "^1.10.1",
     "github-calendar": "^2.3.4",
-    "hexo": "^7.0.0",
+    "hexo": "^7.3.0",
     "hexo-butterfly-wowjs": "^1.0.5",
     "hexo-deployer-git": "^4.0.0",
     "hexo-generator-archive": "^2.0.0",
